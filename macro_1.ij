@@ -1,0 +1,11 @@
+setAutoThreshold("Default dark no-reset");
+//run("Threshold...");
+setAutoThreshold("Default dark no-reset");
+//setThreshold(100, 255);
+setOption("BlackBackground", true);
+run("Convert to Mask");
+run("Close");
+run("Convert to Mask");
+//setTool("line");
+makeLine(241, 106, 244, 332);
+run("Plot Profile");
